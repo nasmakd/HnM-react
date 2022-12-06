@@ -11,7 +11,7 @@ const ProductDetail = () => {
 	const [heartFill, setHeartFill] = useState(false);
 	let { id } = useParams();
 	const getProductDetail = async () => {
-		let url = `https://my-json-server.typicode.com/nasmakd/HnM/products/${id}`;
+		let url = `https://my-json-server.typicode.com/nasmakd/HnM-react/products/${id}`;
 		let response = await fetch(url); //브라우저가 네트워크 요청을 보내고 프로미스 객체가 반환
 		let data = await response.json();
 		setProduct(data);
