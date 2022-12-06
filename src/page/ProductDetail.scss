@@ -1,0 +1,44 @@
+.detail-img{
+  max-width: 100%;
+}
+
+.detail-titleWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 20px 0;
+  .detail-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .like{
+    font-size: 30px;
+    color: #ccc;
+    padding-bottom: 13px;
+    .heartFill{
+      color: var(--color-point);
+    }
+  }
+}
+
+.detail-price{
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.new{
+  font-size: 0.8rem;
+  color: var(--color-gray);
+  margin-bottom: 30px;
+}
+.detail-dropdown{
+  margin-bottom: 20px;
+  & > *{
+    width: 100%;
+  }
+}
+
+button{width: 100%;}
+
+
+
